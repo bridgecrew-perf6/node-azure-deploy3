@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stop": "p2 kill",
+    "start": "pm2 start index.js",
+    "list": "pm2 list",
+    "restart": "pm2 restart index.js"
   },
   "author": "",
   "license": "ISC",
